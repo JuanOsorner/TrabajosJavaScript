@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Consumo de APIs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Consumo de APIs con JavaScript</h1>
+
+  <section id="gallery">
+    <h2>Galería de Imágenes</h2>
+    <div class="photo-grid" id="photoGrid"></div>
+  </section>
+
+  <section id="weather">
+    <h2>Buscador de Clima</h2>
+    <input type="text" id="cityInput" placeholder="Escribe una ciudad..." />
+    <button onclick="getWeather()">Buscar</button>
+    <div id="weatherResult"></div>
+  </section>
+
+  <section id="pokedex">
+    <h2>Pokédex</h2>
+    <input type="text" id="pokemonInput" placeholder="Nombre del Pokémon..." />
+    <button onclick="getPokemon()">Buscar</button>
+    <div id="pokemonCard"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

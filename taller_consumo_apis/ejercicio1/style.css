@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 20px;
+}
+
+.photo-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#weatherResult, #pokemonCard {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#pokemonCard img {
+  width: 150px;
+}
